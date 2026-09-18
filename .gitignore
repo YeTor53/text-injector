@@ -14,3 +14,8 @@ config.json
 
 # 本地归档素材（历史图片，未收入仓库）
 _archive/
+
+# 与注入器无关的本地小工具与生成产物（本地保留，不入库）
+tools/
+assets/*Texture.png
+scripts/manual_focus_test.py

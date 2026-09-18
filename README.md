@@ -63,8 +63,5 @@
 | `editor.py` | 编辑区组件：行号、查找替换、字体字号 |
 | `hotkey.py` | 全局热键注册（Win32 RegisterHotKey，独立消息线程） |
 | `scripts/injector_selfcheck.py` | 离线自检，346 项，不碰键盘：`python scripts/injector_selfcheck.py` |
-| `scripts/manual_focus_test.py` | 手动真机注入测试，**会抢焦点敲键盘**，需加 `--confirm-focus` 才执行 |
-| `assets/` | 窗口图标、纹理贴图 |
-| `tools/texture_gen.py` | 木/石/冰纹理生成脚本（与注入器无关的独立小工具） |
-| `_archive/` | 历史素材（原项目里未被代码引用的图片），本地保留、未入仓库 |
-| `config.json` | 首次运行自动生成 |
+| `assets/icon.ico` | 程序与窗口图标 |
+| `config.json` | 首次运行自动生成（不入库） |
