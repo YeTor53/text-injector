@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller 构建与打包产物（exe 通过 Release 发布）
+build/
+dist/
+
+# PyCharm
+.idea/
+
+# 运行期配置（含各人自己的热键等设置）
+config.json
+
+# 本地归档素材（历史图片，未收入仓库）
+_archive/
